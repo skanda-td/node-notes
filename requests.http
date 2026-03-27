@@ -1,0 +1,18 @@
+### Health Check
+GET http://localhost:3000/
+
+###
+
+### Get Notes
+GET http://localhost:3000/notes
+
+###
+
+### Add Note
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "title": "Test Note 2",
+  "content": "Hello Node 2"
+}
